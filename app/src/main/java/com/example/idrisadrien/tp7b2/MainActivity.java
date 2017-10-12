@@ -3,6 +3,7 @@ package com.example.idrisadrien.tp7b2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -64,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d("quiz","Debut");
+
         // Texte de la question
         mQuestionTextView = (TextView)findViewById(R.id.textView);
         int question = mTabQuestions[indexActuel].getQuestion();
@@ -101,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         mBoutonSuivant.setOnClickListener(new View.OnClickListener(){
 
             // Gestion de l'affichage des questions et renvoi du resultat
+            
 
             @Override
             public void onClick(View v){
