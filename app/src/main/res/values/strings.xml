@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string name="true_button">Vrai</string>
+    <string name="false_button">Faux</string>
+    <string name="toast_correct">Vrai !</string>
+    <string name="toast_false">Faux ! </string>
+    <string name="next_button">Question suivante</string>
+    <string name="q_1">La France est sur le continent Europeen.</string>
+    <string name="q_2">Il y a 4 continents.</string>
+    <string name="q_3">Il y a 2 océans.</string>
+    <string name="q_4">La capitale du Portugal est Lisbonne.</string>
+    <string name="q_5">Obama a été président des Etats-Unis d\'Amerique</string>
+    <string name="q_6">La langue officielle du Brésil est l\'espagnol</string>
+    <string name="q_7">La monnaie du Royaume-Uni est la Livre</string>
+    <string name="q_8">Un président francais est élu pour 7 ans</string>
+    <string name="q_9">L\'iPhone est un produit Apple</string>
+    <string name="q_10">Android a été créé par Microsoft</string>
+</resources>
