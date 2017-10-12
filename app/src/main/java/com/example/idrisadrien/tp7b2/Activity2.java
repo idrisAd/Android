@@ -18,6 +18,8 @@ public class Activity2 extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+        // Recuperation de la valeur point et affichage du score
+
         int point = intent.getIntExtra("point",0);
         String reponseCalcul="Votre score est de : " +point + "/10";
 

@@ -14,8 +14,6 @@ public class VraiFaux {
     }
 
     public VraiFaux(int question, boolean questionVraie){
-
-
         mQuestion = question;
         mVraieQuestion = questionVraie;
     }
