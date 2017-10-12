@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mBoutonSuivant;
     private TextView mQuestionTextView;
 
-    // Création du tableau des questions
+    // Création du tableau des questions avec la réponse correcte
 
     private VraiFaux[] mTabQuestions = new VraiFaux[]{
             new VraiFaux(R.string.q_1, true),
@@ -34,15 +34,17 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private int indexActuel=0;
+
     private int point = 0;
 
 
+    // Mise à jour de la question
     private void majQuestion(){
         int question = mTabQuestions[indexActuel].getQuestion();
         mQuestionTextView.setText(getString(question));
     }
 
-    // Méthode permettant de verifier la reponse à la question
+    // Méthode permettant de verifier la réponse à la question et incrémentation du score
 
     private void verifyReponse(boolean userVrai){
         boolean reponseVraie = mTabQuestions[indexActuel].isQuestionVraie();
@@ -103,8 +105,8 @@ public class MainActivity extends AppCompatActivity {
         mBoutonSuivant = (Button)findViewById(R.id.next);
         mBoutonSuivant.setOnClickListener(new View.OnClickListener(){
 
-            // Gestion de l'affichage des questions et renvoi du resultat
-            
+            // Gestion de la fin du quiz et envoi du score sur Activity2
+
 
             @Override
             public void onClick(View v){
