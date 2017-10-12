@@ -2,8 +2,8 @@
     <string name="app_name">Quiz1</string>
     <string name="true_button">Vrai</string>
     <string name="false_button">Faux</string>
-    <string name="toast_correct">Vrai !</string>
-    <string name="toast_false">Faux ! </string>
+    <string name="toast_correct">Bonne réponse</string>
+    <string name="toast_false">Mauvaise réponse</string>
     <string name="next_button">Question suivante</string>
     <string name="q_1">La France est sur le continent Europeen.</string>
     <string name="q_2">Il y a 4 continents.</string>
